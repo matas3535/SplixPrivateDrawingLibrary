@@ -13,7 +13,7 @@ local Aimbot_Extra = Aimbot:Section({Name = "Extra", Side = "Right"})
 --
 local Visuals_Enemies, Visuals_Teamates, Visuals_Self = Visuals:MultiSection({Sections = {"Enemies", "Teamates", "Self"}, Side = "Left", Size = 200})
 --
-local Settings_Main = Aimbot:Section({Name = "Main", Side = "Left"})
+local Settings_Main = Settings:Section({Name = "Main", Side = "Left"})
 -- // Aimbot
 Aimbot_Main:Toggle({Name = "Enabled", Default = false, Pointer = "AimbotMain_Enabled"})
 :Keybind({Default = Enum.KeyCode.E, KeybindName = "Aimbot", Mode = "Hold", Pointer = "AimbotMain_Bind"})
