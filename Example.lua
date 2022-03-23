@@ -1,5 +1,5 @@
 -- // Tables
-local Library = loadfile("splix_rewrite/assets/library.lua")()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/matas3535/PoopLibrary/main/Library.lua"))() -- Could Also Save It In Your Workspace And Do loadfile("Library.lua")()
 -- // Variables
 -- // Init
 local Window = Library:New({Name = "Splix Private Poop UI", Accent = Color3.fromRGB(25, 240, 100)})
