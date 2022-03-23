@@ -19,6 +19,7 @@ local library = {
     ended = {},
     changed = {},
     folders = {
+        main = "splix"
         assets = "splix/assets",
         configs = "splix/configs"
     },
@@ -28,6 +29,18 @@ local library = {
         ping = 0
     }
 }
+--
+if not isfolder(library.folders.main) then
+    makefolder(library.folders.main)
+end
+--
+if not isfolder(library.folders.assets) then
+    makefolder(library.folders.assets)
+end
+--
+if not isfolder(library.folders.configs) then
+    makefolder(library.folders.configs)
+end
 --
 local utility = {}
 local pages = {}
