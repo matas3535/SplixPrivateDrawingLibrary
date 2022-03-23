@@ -19,7 +19,7 @@ local library = {
     ended = {},
     changed = {},
     folders = {
-        main = "splix"
+        main = "splix",
         assets = "splix/assets",
         configs = "splix/configs"
     },
