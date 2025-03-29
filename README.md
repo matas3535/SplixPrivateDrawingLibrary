@@ -1,5 +1,5 @@
 # Old Splix Private Library
-Released this Library cause thought why not, Plus it was leaked to new users such as Liam and Tested
+Fully static drawing ui library, No use of any extended drawing library inside.
 --
 Library Source, Documentation and an Example are all inside of the repository.
 --
